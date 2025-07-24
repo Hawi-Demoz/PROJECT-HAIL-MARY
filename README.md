@@ -17,7 +17,8 @@ Built with **HTML**, **CSS**, and **JavaScript**. Inspired by *Project Hail Mary
 Keep the sun brightness above 0% or Earth will freeze. Balance your resources wisely!
 
 ## Demo
-https://hawi-demoz.github.io/PROJECT-HAIL-MARY/git 
+[Live Demo](/https://hawi-demoz.github.io/PROJECT-HAIL-MARY/)
+
 
 
 
