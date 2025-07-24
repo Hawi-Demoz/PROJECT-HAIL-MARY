@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Save the Sun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌞 Save the Sun</h1>
+  <p>Stop the sun from dimming! Manage your resources wisely.</p>
+
+  <div class="game-panel">
+    <div class="stat">
+      <label>🌡️ Sun Brightness: <span id="sunBrightness">100%</span></label>
+    </div>
+
+    <div class="control">
+      <label>🧬 Astrophage Harvest</label>
+      <input type="range" id="harvest" min="0" max="100" value="50">
+    </div>
+
+    <div class="control">
+      <label>🛡️ Solar Shield Level</label>
+      <input type="range" id="shield" min="0" max="100" value="50">
+    </div>
+
+    <div class="control">
+      <label>🔋 Ship Power</label>
+      <input type="range" id="power" min="0" max="100" value="50">
+    </div>
+
+    <button id="restartBtn">🔄 Restart Game</button>
+    
+    <div class="sound-toggle">
+  <label><input type="checkbox" id="soundToggle" checked> 🔊 Sound On/Off</label>
+</div>
+
+  </div>
+
+  <p id="status">🌍 Earth is stable… for now.</p>
+  <p id="rocky">🪐</p>
+
+  <canvas id="chart" width="400" height="150"></canvas>
+
+  <audio id="dangerSound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
